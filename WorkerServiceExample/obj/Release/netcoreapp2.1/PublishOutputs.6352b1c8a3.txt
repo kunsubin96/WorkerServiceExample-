@@ -1,0 +1,15 @@
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/appsettings.Development.json
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/appsettings.json
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/WorkerServiceExample.dll
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/WorkerServiceExample.runtimeconfig.json
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/WorkerServiceExample.pdb
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/Serilog.dll
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/Serilog.AspNetCore.dll
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/Serilog.Extensions.Hosting.dll
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/Serilog.Extensions.Logging.dll
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/Serilog.Formatting.Compact.dll
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/Serilog.Settings.Configuration.dll
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/Serilog.Sinks.Console.dll
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/Serilog.Sinks.Debug.dll
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/Serilog.Sinks.File.dll
+/Users/kunsubin/GitHub/WorkerServiceExample-/WorkerServiceExample/bin/Release/netcoreapp2.1/publish/WorkerServiceExample.deps.json

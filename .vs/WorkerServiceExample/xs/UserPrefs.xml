@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{83E8BACB-40F0-4673-BE96-898BF294D386}|Default">
+  <MonoDevelop.Ide.ItemProperties.WorkerServiceExample PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WorkerServiceExample/LogFile.txt">
+    <Files>
+      <File FileName="WorkerServiceExample/Controllers/ValuesController.cs" Line="1" Column="1" />
+      <File FileName="WorkerServiceExample/IScopedProcessingService.cs" Line="1" Column="1" />
+      <File FileName="WorkerServiceExample/ScopedProcessingService.cs" Line="1" Column="1" />
+      <File FileName="WorkerServiceExample/Program.cs" Line="8" Column="25" />
+      <File FileName="WorkerServiceExample/LogFile.txt" Line="28" Column="48" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WorkerServiceExample" expanded="True">
+            <Node name="WorkerServiceExample" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="LogFile.txt" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

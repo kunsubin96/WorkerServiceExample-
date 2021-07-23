@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore;
+﻿using System.IO;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Serilog;
 
@@ -12,7 +13,7 @@ namespace WorkerServiceExample
                             .MinimumLevel.Debug()
                             .MinimumLevel.Override("Microsoft", Serilog.Events.LogEventLevel.Warning)
                             .Enrich.FromLogContext()
-                            .WriteTo.File(@"c:\temp\wokerservice\LogFile.txt")
+                            .WriteTo.File("LogFile.txt")
                             .CreateLogger();
 
             CreateWebHostBuilder(args).Build().Run();
