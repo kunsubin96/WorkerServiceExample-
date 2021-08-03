@@ -34,6 +34,7 @@ namespace WorkerServiceExample
 
             // If the task is completed then return it, otherwise it's running
             return _executingTask.IsCompleted ? _executingTask : Task.CompletedTask;
+
         }
 
         public async Task StopAsync(CancellationToken cancellationToken)
@@ -107,18 +108,7 @@ namespace WorkerServiceExample
                     //}
                     await Task.Yield();
 
-                    //handle at 24:00
-                    if (DateTime.Now.Hour == 0 && isExecute)
-                    {
-                        scopedProcessingService.DoWork();
-                        isExecute = false;
-
-                    }
-                    if (DateTime.Now.Hour == 1)
-                    {
-                        isExecute = true;
-                    }
-                    //scopedProcessingService.DoWork();
+                    scopedProcessingService.DoWork();
 
                     //min task 10000 milisSecond
                     await Task.Delay(60000, stoppingToken);

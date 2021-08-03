@@ -27,7 +27,7 @@ namespace WorkerServiceExample
         {
 
             services.AddScoped<IScopedProcessingService, ScopedProcessingService>();
-            services.AddHostedService<HostedService>();
+            services.AddHostedService<TimedHostedService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

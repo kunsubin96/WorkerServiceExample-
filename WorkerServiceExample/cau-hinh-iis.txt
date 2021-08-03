@@ -1,0 +1,3 @@
+Cancel IIS Timeout And Recycling: Trong file pdf thu muc goc.
+Change 'Load User Profile' in Advanced Settings false->true 
+
