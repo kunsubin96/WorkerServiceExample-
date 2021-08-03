@@ -106,8 +106,7 @@ namespace WorkerServiceExample
                     //{
                     //    isExecute = true;
                     //}
-                    await Task.Yield();
-
+                 
                     scopedProcessingService.DoWork();
 
                     //min task 10000 milisSecond

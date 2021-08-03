@@ -11,7 +11,8 @@ namespace WorkerServiceExample
     {
         private readonly ILogger<TimedHostedService> _logger;
         private Timer _timer;
-        IScopedProcessingService scopedProcessingService;
+        private IScopedProcessingService scopedProcessingService;
+        private bool isExecute = true;
 
         public TimedHostedService(IServiceProvider services, ILogger<TimedHostedService> logger)
         {
@@ -24,6 +25,7 @@ namespace WorkerServiceExample
         {
             _logger.LogInformation("Hosted Service running.");
 
+            //create service handle
             scopedProcessingService = Services.CreateScope().ServiceProvider.GetRequiredService<IScopedProcessingService>();
 
             _timer = new Timer(DoWork, null, TimeSpan.Zero,
@@ -32,19 +34,35 @@ namespace WorkerServiceExample
             return Task.CompletedTask;
         }
 
-        //handle
+        //handle loop 
         private void DoWork(object state)
         {
-            //using (var scope = Services.CreateScope())
+            //handle call method service
+            //at minute
+            //if(DateTime.Now.Minute==38&& isExecute)
             //{
-            //    var scopedProcessingService =
-            //        scope.ServiceProvider
-            //            .GetRequiredService<IScopedProcessingService>();
             //    scopedProcessingService.DoWork();
-            //};
+            //    isExecute = false;
+
+            //}
+            //if (DateTime.Now.Minute == 39)
+            //{
+            //    isExecute = true;
+            //}
+
+            //handle at 24:00
+            //if (DateTime.Now.Hour == 0 && isExecute)
+            //{
+            //    scopedProcessingService.DoWork();
+            //    isExecute = false;
+
+            //}
+            //if (DateTime.Now.Hour == 1)
+            //{
+            //    isExecute = true;
+            //}
 
             scopedProcessingService.DoWork();
-
         }
         public Task StopAsync(CancellationToken stoppingToken)
         {

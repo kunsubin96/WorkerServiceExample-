@@ -8,13 +8,13 @@
       <File FileName="appsettings.Development.json" />
       <File FileName="Program.cs" Line="15" Column="37" />
       <File FileName="Startup.cs" Line="30" Column="57" />
-      <File FileName="HostedService1.cs" Line="55" Column="16" />
+      <File FileName="HostedService1.cs" Line="47" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WorkerServiceExample" expanded="True">
-            <Node name="WorkerServiceExample" expanded="True" selected="True" />
+          <Node name="WorkerServiceExample" expanded="True" selected="True">
+            <Node name="WorkerServiceExample" expanded="True" />
           </Node>
         </State>
       </Pad>
