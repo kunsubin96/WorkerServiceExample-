@@ -1,7 +1,7 @@
-2021-07-23 09:47:15.345 +07:00 [INF] Service Hosted Service running.
-2021-07-23 09:47:15.398 +07:00 [INF] Service Hosted Service is working.
-2021-07-23 09:47:15.399 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:47:15
-2021-07-23 09:47:16.406 +07:00 [DBG] Failed to authenticate HTTPS connection.
+2021-08-03 10:13:15.386 +07:00 [INF] Service Hosted Service running.
+2021-08-03 10:13:15.419 +07:00 [INF] Service Hosted Service is working.
+2021-08-03 10:13:15.422 +07:00 [INF] Scoped Processing Service is working at 08/03/2021 10:13:15
+2021-08-03 10:13:16.422 +07:00 [DBG] Failed to authenticate HTTPS connection.
 System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
    at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
    at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
@@ -14,30 +14,4 @@ System.IO.IOException: Authentication failed because the remote party has closed
    at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
 --- End of stack trace from previous location where exception was thrown ---
    at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
-2021-07-23 09:47:25.404 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:47:25
-2021-07-23 09:47:35.404 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:47:35
-2021-07-23 09:47:45.407 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:47:45
-2021-07-23 09:47:55.410 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:47:55
-2021-07-23 09:48:05.414 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:48:05
-2021-07-23 09:48:24.882 +07:00 [INF] Service Hosted Service running.
-2021-07-23 09:48:24.914 +07:00 [INF] Service Hosted Service is working.
-2021-07-23 09:48:24.915 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:48:24
-2021-07-23 09:48:25.914 +07:00 [DBG] Failed to authenticate HTTPS connection.
-System.IO.IOException: Authentication failed because the remote party has closed the transport stream.
-   at System.Net.Security.SslState.StartReadFrame(Byte[] buffer, Int32 readBytes, AsyncProtocolRequest asyncRequest)
-   at System.Net.Security.SslState.PartialFrameCallback(AsyncProtocolRequest asyncRequest)
---- End of stack trace from previous location where exception was thrown ---
-   at System.Net.Security.SslState.ThrowIfExceptional()
-   at System.Net.Security.SslState.InternalEndProcessAuthentication(LazyAsyncResult lazyResult)
-   at System.Net.Security.SslState.EndProcessAuthentication(IAsyncResult result)
-   at System.Net.Security.SslStream.EndAuthenticateAsServer(IAsyncResult asyncResult)
-   at System.Net.Security.SslStream.<>c.<AuthenticateAsServerAsync>b__51_1(IAsyncResult iar)
-   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
---- End of stack trace from previous location where exception was thrown ---
-   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionAdapter.InnerOnConnectionAsync(ConnectionAdapterContext context)
-2021-07-23 09:48:34.920 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:48:34
-2021-07-23 09:48:44.924 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:48:44
-2021-07-23 09:48:54.925 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:48:54
-2021-07-23 09:49:04.927 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:49:04
-2021-07-23 09:49:14.928 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:49:14
-2021-07-23 09:49:24.930 +07:00 [INF] Scoped Processing Service is working at 07/23/2021 09:49:24
+2021-08-03 10:14:15.429 +07:00 [INF] Scoped Processing Service is working at 08/03/2021 10:14:15

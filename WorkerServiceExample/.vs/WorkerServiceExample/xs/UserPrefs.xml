@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{C8C4689C-A333-493E-8BBC-3A671256E0C5}|Default">
+  <MonoDevelop.Ide.ItemProperties.WorkerServiceExample PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HostedService.cs">
+    <Files>
+      <File FileName="HostedService.cs" Line="101" Column="45" />
+      <File FileName="ScopedProcessingService.cs" Line="21" Column="57" />
+      <File FileName="IScopedProcessingService.cs" Line="1" Column="1" />
+      <File FileName="appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="10" Column="6" />
+      <File FileName="Startup.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WorkerServiceExample" expanded="True">
+            <Node name="WorkerServiceExample" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+              <Node name="HostedService.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

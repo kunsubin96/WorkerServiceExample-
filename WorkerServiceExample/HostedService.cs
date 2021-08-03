@@ -78,6 +78,7 @@ namespace WorkerServiceExample
                     scope.ServiceProvider
                         .GetRequiredService<IScopedProcessingService>();
 
+
                 while (!stoppingToken.IsCancellationRequested)
                 {
                     //handle call method service
@@ -104,12 +105,23 @@ namespace WorkerServiceExample
                     //{
                     //    isExecute = true;
                     //}
+                    await Task.Yield();
 
+                    //handle at 24:00
+                    if (DateTime.Now.Hour == 0 && isExecute)
+                    {
+                        scopedProcessingService.DoWork();
+                        isExecute = false;
 
-                    scopedProcessingService.DoWork();
+                    }
+                    if (DateTime.Now.Hour == 1)
+                    {
+                        isExecute = true;
+                    }
+                    //scopedProcessingService.DoWork();
 
                     //min task 10000 milisSecond
-                    await Task.Delay(10000, stoppingToken);
+                    await Task.Delay(60000, stoppingToken);
                 }
             }
         }
